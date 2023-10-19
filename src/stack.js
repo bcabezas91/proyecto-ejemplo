@@ -1,7 +1,13 @@
 class Stack {
-  constructor() {}
+  constructor() {
+   console.log('Hola')
+  }
 
-  push(value) {}
+  push(value) {
+    console.log(value)
+  }
 
-  pop() {}
+  pop() {
+    console.log('Davier estuvo aqui')
+  }
 }
